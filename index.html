@@ -76,6 +76,20 @@
     <!-- #1 Slider with Arrow Cursor  -->
 
     <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      .grid img {
+        width: 100%;
+        aspect-ratio: 1 / 1; /* keeps perfect square shape */
+        object-fit: cover;   /* crop to fit */
+        border-radius: 8px;
+        display: block;
+      }
       .w-slider-nav {
         display: flex;
         justify-content: space-between;
@@ -260,6 +274,22 @@
           </div>
         </div>
         <div class="button-wrap-3 is-intro"></div>
+      </div>
+      <div>
+        <div class="grid">
+          <img src="assets/image1.jpg" alt="">
+          <img src="assets/image2.jpg" alt="">
+          <img src="assets/image3.jpg" alt="">
+          <img src="assets/image4.jpg" alt="">
+          <img src="assets/image5.jpg" alt="">
+          <img src="assets/image6.jpg" alt="">
+          <img src="assets/image7.jpg" alt="">
+          <img src="assets/image8.jpg" alt="">
+          <img src="assets/image9.jpg" alt="">
+          <img src="assets/image10.jpg" alt="">
+          <img src="assets/image11.jpg" alt="">
+          <img src="assets/image12.jpg" alt="">
+        </div>
       </div>
     </div>
     <script
